@@ -1,0 +1,29 @@
+{
+  "name": "ci-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "SKYSITE",
+  "license": "ISC",
+  "engines": {
+    "node": "11.5.0"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.417.0",
+    "bcrypt": "^3.0.4",
+    "bluebird": "^3.5.3",
+    "jsonwebtoken": "^8.5.0",
+    "koa": "^2.7.0",
+    "koa-body": "^4.1.0",
+    "koa-convert": "^1.2.0",
+    "koa-cors": "0.0.16",
+    "koa-router": "^7.4.0",
+    "moment": "^2.24.0",
+    "nodemailer": "^5.1.1",
+    "pg-promise": "^8.6.3",
+    "sharp": "^0.21.3"
+  }
+}

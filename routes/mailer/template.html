@@ -1,0 +1,222 @@
+<!Doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Arkangel</title>
+    <style type="text/css">
+      p.unete {
+    padding-top: unset;
+    font-weight: bold;
+    padding-bottom: unset;
+}
+
+      body {
+
+        margin: unset;
+        color: black;
+        background-size: cover;
+      }
+
+      .webLink{
+        color: white !important;
+        text-decoration: unset;
+      }
+
+    .web {
+    margin: auto;
+    padding-bottom: 20px;
+    font-family: sans-serif;
+    font-size: 15px;
+    color: white;
+}
+
+      .imgPlay{
+        width: 100%;
+      }
+
+      .box{
+        max-width: 200px; 
+        padding-left: 19%;
+      }
+
+      h3{
+          font-family: sans-serif;
+          font-size:35px;
+          color: #af44af;
+          margin: unset;
+          margin-top: 15px;
+      }
+
+
+      img.crea {
+      width: 100%;
+    }
+
+    img.logo {
+    width:100%;
+}
+
+.row {
+    text-align: center;
+    justify-content: center;
+    vertical-align: middle;
+    align-items: center;
+}
+
+.firma {
+    text-align: left;
+    padding-left: 20%;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+.down {
+    text-align: left;
+    padding-left: 20%;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.marg{
+  margin-top:25px;
+}
+
+.col-log{
+  text-align: right;
+}
+.col-crea{
+  text-align: left;
+}
+
+.col-log {
+    text-align: right;
+    flex-direction: row-reverse;
+    display: flex;
+}
+
+.img {
+    max-width: 350px;
+    margin: auto;
+}
+.img1 {
+    max-width: 300px;
+    margin: auto;
+}
+
+.link{
+  color: #51c6f9;
+}
+
+.txt{
+  position: relative;
+  margin-bottom:10px;
+  z-index:5;
+}
+
+p {
+    text-align: left;
+    padding: 20%;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    font-family: sans-serif;
+    color:black;
+}
+
+footer {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.blue {
+    background: rebeccapurple;
+    width: 100%;
+    padding-left: 20%;
+    margin: auto;
+}
+
+@media (max-width:575px){
+    h3 {
+        font-size: 20px;
+    }
+
+    .img1{
+      margin:auto;
+    }
+}
+
+@media(max-width:420px){
+  p{
+  padding: 5%;
+  }
+}
+
+    </style>
+  </head>
+  <body style="padding-top: 20px;">
+    <div class="container">
+        <div class="row marg">
+
+          <div class="img1" style="margin-top: 20px;">
+          <img class="logo" src="https://arkangel-app.github.io/img/logoArk-13.png"/>
+
+        </div>
+      </div>
+      <div class="row txt">
+      <h3>Nueva sugerencia</h3>
+      <p>
+        Hola ${parent}:
+        <br></br>     
+         ${kid} quiere comunicarte que se siente ${emotion}. Es bueno que ${kid} comunique sus emociones. Por ello te damos una sugerencia de qué puedes hacer. 
+        <br></br> 
+        <strong>Recomendación: </strong> ${sugerencia}
+
+
+
+        <br></br>
+        <div class="firma">
+        <div>
+        Con cariño,                    
+        </div>  
+        Arkangel.
+         </div>
+        <br></br>
+      
+         <p> 
+          Si aún no has descargado nuestra app puedes hacerlo desde Play Store.
+         <br>
+         </p>
+         <p class="unete">
+          Únete usando el código de ${kid}:
+         </p>
+         <p class="kidcode">
+
+          ${key}
+         </p>
+
+        <a href="https://play.google.com/store/apps/details?id=com.arkangel.arkangel&hl=en_US">
+          <div class="box">
+          <img class="imgPlay" src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png"/>
+          </div>
+        </a>
+      </p>
+      </div>
+  </div>
+    <footer>
+      <div class="blue"> 
+
+        <p class="web">
+        <a class="webLink" href="https://arkangel-app.github.io/">www.arkangel-app.github.io</a> 
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
